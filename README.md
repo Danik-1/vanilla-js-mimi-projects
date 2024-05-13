@@ -10,4 +10,5 @@
 6. Simple pacman game
 7. Parallax effect
 8. Animation with planet simulation (zero js)
-9. Tic-Tac-Toe
+9. Theme toggler
+10. Tic-Tac-Toe
