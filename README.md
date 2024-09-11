@@ -3,10 +3,9 @@
 ### This repo contains little projects made with javascript for education and entertaiment
 
 ### Now it includes:
+1. 3D carousel
 
-1. Analog clock dial
-
-<img src="./Readme_images/clock.png" alt="" style="margin-bottom: 40px; height: 300px;"/>
+<img src="./Readme_images/carousel.png" alt="" style="margin-bottom: 40px; height: 300px;"/>
 
 2. NextJS anime finder with SSR and Infinite Scroll
 
@@ -43,3 +42,7 @@
 10. Tic-Tac-Toe
 
 <img src="./Readme_images/tic-tac-toe.png" alt="" style="margin-bottom: 40px; height: 300px;"/>
+
+11. Analog clock dial
+
+<img src="./Readme_images/clock.png" alt="" style="margin-bottom: 40px; height: 300px;"/>
