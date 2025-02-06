@@ -1,0 +1,95 @@
+.todo-form {
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+}
+
+.todo-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.add-button {
+  padding: 0.5rem 1rem;
+  border: solid 1px #2563eb;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  background-color: #2563eb;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-dark-theme);
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+}
+
+.todo-item-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.todo-checkbox {
+  width: 2rem;
+  height: 2rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.delete-button {
+  color: #dc2626;
+  background-color: var(--secondary-dark-theme);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.delete-button:hover {
+  background-color: red;
+  color: var(--bg-dark-theme);
+}
+
+@media (prefers-color-scheme: light) {
+  .todo-card {
+    color: var(--accent-light-theme);
+    background-color: var(--bg-light-theme);
+  }
+  .todo-item {
+    color: var(--accent-light-theme);
+    background-color: var(--secondary-light-theme);
+  }
+  .delete-button{
+    background-color: var(--bg-light-theme);
+  }
+}
